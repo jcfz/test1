@@ -97,7 +97,7 @@ def send_sms(phone, msg):
                   sp='chuanglan')
     return HttpPoolUtils().doPost(url, params)
 
-msg='《最佳阵容》欧洲杯竞猜火热上线！累计充值送好礼，登录乐无限WiFi客户端，点首页活动图片参与，小积分赢大奖，分分钟赚积分！退订回T'
+msg='稀有英雄+特殊礼包，百万金币狂撒，2500+英雄组合，《别让我冒险》只为打造属于你的组合，超多精彩尽在《别让我冒险》！回T退订'
 try:
     path = os.path.split(os.path.realpath(__file__))[0]
     csvfile = file(path+'/aa.csv', 'rb')
